@@ -1,0 +1,42 @@
+
+/* ===Common styles=== */
+/* *{
+    margin: 0;
+    padding: 0;
+} */
+
+
+
+/* ====Banner part start==== */
+.banner{
+    background: url('../images/Banner\ Image.png');
+    background-repeat: no-repeat;
+    width: 1320px;
+    height: 600px;
+    margin: auto;
+    margin-top: 50px;
+}
+
+.banner-text{
+    color: #FFFF;
+    font-family: Merriweather;
+    font-size: 32px;
+    font-weight: 400;
+    text-align: center;
+}
+
+.banner-title{
+    color: #FFFF;
+    text-align: center;
+    font-family: Merriweather;
+    font-size: 72px;
+    font-weight: 900;
+    line-height: 95px;
+    width: 632px;
+    margin: auto;
+
+}
+
+.banner-item{
+    padding: 150px 344px;
+}

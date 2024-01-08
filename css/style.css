@@ -9,7 +9,8 @@
 
 /* ====Banner part start==== */
 .banner{
-    background: url('../images/Banner\ Image.png');
+    background-image: linear-gradient(to bottom, rgba(0,0,0,0.5), rgba(0,0,0,0)), url('../images/Banner\ Image.png');
+    border-radius: 16px;
     background-repeat: no-repeat;
     width: 1320px;
     height: 600px;
@@ -39,4 +40,41 @@
 
 .banner-item{
     padding: 150px 344px;
+}
+
+/* ====Discount part start==== */
+
+.discount{
+    font-family: Inter;
+    font-size: 88px;
+    color: #F00;
+    font-weight: 700;
+    text-align: center;
+}
+
+.holiday{
+    font-family: Inter;
+    font-size: 24px;
+    color: #F00;
+    font-weight: 500;
+    text-align: center;
+    margin-top: 48px;
+}
+
+.categories{
+    font-family: Inter;
+    font-size: 48px;
+    color: #070211;
+    font-weight: 700;
+    text-align: center;
+    margin-top: -30px;
+}
+
+.new-year-photo{
+    text-align: center;
+    margin-top: 48px;
+}
+
+.text-item{
+    margin-top: 120px;
 }

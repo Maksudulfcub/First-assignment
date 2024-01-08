@@ -78,3 +78,65 @@
 .text-item{
     margin-top: 120px;
 }
+
+
+/* ====Midnight party part start==== */
+
+.midnight-party{
+    background-image: linear-gradient(to right, rgba(0,0,0,0.5), rgba(0,0,0,0)), url('../images/Vectorrr.png');
+    border-radius: 16px;
+    background-repeat: no-repeat;
+    width: 1320px;
+    height: 600px;
+    margin: auto;
+    margin-top: 120px;
+    display: flex;
+}
+
+.party-title{
+    color: #FFFF;
+    font-family: Merriweather;
+    font-size: 64px;
+    font-weight: 900;
+    line-height: 88px;
+    letter-spacing: 7.04px;
+    width: 642px;
+    margin-bottom: 24px;
+}
+
+.party-description{
+    color: rgba(255, 255, 255, 0.80);
+    font-family: Inter;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 30px;
+    width: 697px;
+    margin-bottom: 38px;
+}
+
+.btn-primary{
+    font-family: inter;
+    font-size: 20px;
+    font-weight: 700;
+    color: #FFFF;
+    background: transparent;
+    padding: 15px 20px;
+    border: 1px solid #FFFF;
+    border-radius: 10px;
+}
+
+.btn-primary:hover{
+    background-color: #F00;
+    transition: .5s;
+    border: 1px solid #F00;
+}
+
+.party-item{
+    margin-left: 126px;
+    padding-top: 80px;
+}
+
+.year-img{
+    margin-top: 68px;
+    margin-left: 40px;
+}

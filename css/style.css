@@ -491,7 +491,7 @@ footer{
     display: flex;
     gap: 24px;
     justify-content: center;
-    margin: 98px;
+    margin: 48px;
 }
 
 .logo:hover{
@@ -520,6 +520,18 @@ footer{
     display: flex;
     justify-content: space-between;
     align-items: center;
+}
+
+.first-hr{
+    border-top: 1px solid rgba(255, 255, 255, 0.15);
+    margin-bottom: 50px;
+    margin-top: 50px;
+}
+
+.new-hr{
+    border-top: 1px solid rgba(255, 255, 255, 0.15);
+    margin-bottom: 50px;
+    margin-top: -10px;
 }
 
 /* ====THE END==== */

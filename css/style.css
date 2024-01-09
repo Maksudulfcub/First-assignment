@@ -349,3 +349,76 @@ span{
     height: 450px;
     transform: scale(1.03);
 }
+
+/* ====Portfolio part start==== */
+
+.newsletter-container{
+    height: 616px;
+    background-color: rgba(255, 0, 0, 0.05);
+    border-radius: 16px;
+    margin-top: 120px;
+}
+
+.subscribe-title{
+    font-family: Merriweather;
+    font-size: 48px;
+    color: #070211;
+    font-weight: 900;
+    margin-bottom: 22px;
+}
+
+.subscribe-description{
+    font-family: Inter;
+    font-size: 20px;
+    color: rgba(7, 2, 17, 0.60);
+    font-weight: 400;
+    line-height: 32px;
+    width: 896px;
+    margin: auto;
+}
+
+.newsletter-section{
+    text-align: center;
+    padding: 80px;
+}
+
+.email{
+    width: 648px;
+    height: 72px;
+    border-radius: 50px;
+    border: none;
+
+}
+
+::placeholder{
+    color: rgba(7, 2, 17, 0.30);
+    font-family: Inter;
+    font-size: 18px;
+    font-weight: 400;
+    padding-left: 30px;
+}
+
+.input-field{
+    margin-top: 48px;
+    position: relative;
+}
+
+.subscribe-btn{
+    width: 210px;
+    height: 72px;
+    border-radius: 0px 50px 50px 0px;
+    background: #F00;
+    border: none;
+    color: #FFFF;
+    font-family: Inter;
+    font-size: 20px;
+    font-weight: 600;
+    position: absolute;
+    right: 250px;
+}
+
+.subscribe-btn:hover{
+    box-shadow: 0px 0px 25px -3px rgba(0,0,0,0.75);
+    transition: .4s;
+    border: none;
+}
